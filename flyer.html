@@ -56,21 +56,69 @@
       max-width: 750px;
       max-height: 750px;
       z-index: 4; }
+    
+    #container{
+      position: relative;
+      text-align: center;
+      color: white; 
+      
+    }
+    #concentration1 {
+        position: absolute;
+        top: 620px;
+        left: 10px;
+        font-size: 11px;
+        text-align: left; 
+        z-index: 100;
+    }
+    
+    #concentration2 {
+        position: absolute;
+        top: 530px;
+        left: 170px;
+        font-size: 11px;
+        text-align: left;
+        z-index: 100;
+    }
+        
+    #concentration3 {
+        position: absolute;
+        top: 450px;
+        left: 390px;
+        font-size: 11px;
+        text-align: left;
+        z-index: 100;
+    }
+
+    #concentration4 {
+        position: absolute;
+        top: 370px;
+        left: 600px;
+        font-size: 11px;
+        text-align: left;
+        z-index: 100;
+    }
       
     </style>
   </head>
   <body>
-    <p><img src = "./images/servers.png" class = "background_image"
-      alt = "First positioned image" /></p>
-    <p><img src = "./images/lsusLogo.png" class = "lsus_logo"
-      alt = "Logo of LSUS" /></p>
-    <p><img src = "./images/purpleCS.png" class = "computerscience_image"
-      alt = "Computer Science Logo" /></p>
-    <p><img src = "./images/grayPolygon.png" class = "middle_image"
-      alt = "Second positioned image" /></p>
-    <p><img src = "./images/whitePolygon.png" class = "foreground_image1"
-      alt = "Third positioned image" /></p>
-    <p><img src = "./images/purplePolygon.png" class = "foreground_image2"
-      alt = "Fourth positioned image" /></p>
+    <div id="container">
+        <img src = "./images/servers.png" class = "background_image"
+          alt = "First positioned image" />
+        <img src = "./images/lsusLogo.png" class = "lsus_logo"
+          alt = "Logo of LSUS" />
+        <img src = "./images/purpleCS.png" class = "computerscience_image"
+          alt = "Computer Science Logo" />
+        <img src = "./images/grayPolygon.png" class = "middle_image"
+          alt = "Second positioned image" />
+        <img src = "./images/whitePolygon.png" class = "foreground_image1"
+          alt = "Third positioned image" />
+        <img src = "./images/purplePolygon.png" class = "foreground_image2"
+          alt = "Fourth positioned image" />
+        <p id="concentration1"><b style="font-size: 15px;">Software Development</b><br><br>An ABET accredited degree<br>focused on the design,<br> implementation, and delivery of<br>software solutions</p>
+        <p id="concentration2"><b style="font-size: 15px;">Cyber Security & Networking</b><br><br>Focuses on network and information<br>security and approved Criminal<br>Justice courses</p>
+        <p id="concentration3"><b style="font-size: 15px;">Digital & Interactive Design</b><br><br>Prepares students to work on the technical <br>side of computer interactive mobile <br>graphics/visual effectsin a variety of digital<br>media fields<p>
+        <p id="concentration4"><b style="font-size: 15px;">Information Systems</b><br><br>Focuses on business systems,<br>including networks, databases,<br>and approved business courses</p>
+    </div>
   </body>
 </html>    
