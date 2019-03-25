@@ -60,9 +60,22 @@
     #container{
       position: relative;
       text-align: center;
-      color: white; 
+      color: white;
       
     }
+        
+    .text-block {
+      position: absolute;
+      top: 130px;
+      left: 60px;
+      width: 550px;
+      background: rgba(204,204,204,0.5);
+      font-family: courier; 
+      color: white;
+      padding-left: 20px;
+      padding-right: 20px;
+      z-index: 5}
+        
     #concentration1 {
         position: absolute;
         top: 620px;
@@ -103,12 +116,18 @@
   </head>
   <body>
     <div id="container">
+         <img src = "./images/servers.png" class = "background_image"
+          alt = "First positioned image" />
+    <div class="text-block">    
+          <p><b>The mission of the Computer Science Department at LSUS is to produce graduates who possess the capacity to be leaders of technology and change, who will contribute to technological and economic development of the state, region and beyond.</b></p>
+    </div>
         <img src = "./images/servers.png" class = "background_image"
           alt = "First positioned image" />
         <img src = "./images/lsusLogo.png" class = "lsus_logo"
           alt = "Logo of LSUS" />
         <img src = "./images/purpleCS.png" class = "computerscience_image"
           alt = "Computer Science Logo" />
+       
         <img src = "./images/grayPolygon.png" class = "middle_image"
           alt = "Second positioned image" />
         <img src = "./images/whitePolygon.png" class = "foreground_image1"
