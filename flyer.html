@@ -1,143 +1,34 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta-charset = "uft-8">
-    <title>Flyer</title>
-    <style type = "text/css">
-    .background_image { position: absolute;
-      top: 0px;
-      left: 0px;
-      width: auto;
-      height: auto;
-      max-width: 750px;
-      max-height: 750px;
-      z-index: 1; }
-        
-    .lsus_logo { position: absolute;
-      top: 25px;
-      left: 200px;
-      width: auto;
-      height: auto;
-      max-width: 300px;
-      max-height: 150px;
-      z-index: 1; }
-    
-    .computerscience_image { position: absolute;
-      top: 95px;
-      left: 200px;
-      width: auto;
-      height: auto;
-      max-width: 300px;
-      max-height: 150px;
-      z-index: 1; }
-
-            
-    .middle_image { position: absolute;
-      top: 360px;
-      left: 0px;
-      width: auto;
-      height: auto;
-      max-width: 750px;
-      max-height: 750px;
-      z-index: 2; }
-    .foreground_image1 { position: absolute;
-      top: 319px;
-      left: 0px;
-      width: auto;
-      height: auto;
-      max-width: 750px;
-      max-height: 750px;
-      z-index: 3; }
-    .foreground_image2 { position: absolute;
-      top: 290px;
-      left: 0px;
-      width: auto;
-      height: auto;
-      max-width: 750px;
-      max-height: 750px;
-      z-index: 4; }
-    
-    #container{
-      position: relative;
-      text-align: center;
-      color: white;
-      
-    }
-        
-    .text-block {
-      position: absolute;
-      top: 130px;
-      left: 60px;
-      width: 550px;
-      background: rgba(204,204,204,0.5);
-      font-family: courier; 
-      color: white;
-      padding-left: 20px;
-      padding-right: 20px;
-      z-index: 5}
-        
-    #concentration1 {
-        position: absolute;
-        top: 620px;
-        left: 10px;
-        font-size: 11px;
-        text-align: left; 
-        z-index: 100;
-    }
-    
-    #concentration2 {
-        position: absolute;
-        top: 530px;
-        left: 170px;
-        font-size: 11px;
-        text-align: left;
-        z-index: 100;
-    }
-        
-    #concentration3 {
-        position: absolute;
-        top: 450px;
-        left: 390px;
-        font-size: 11px;
-        text-align: left;
-        z-index: 100;
-    }
-
-    #concentration4 {
-        position: absolute;
-        top: 370px;
-        left: 600px;
-        font-size: 11px;
-        text-align: left;
-        z-index: 100;
-    }
-      
-    </style>
+    <meta charset = "uft-8">
+    <title>LSUS Computer Science Flyer</title>
+    <link rel = "stylesheet" type = "text/css" href = "CSS/styles.css">
   </head>
   <body>
     <div id="container">
-         <img src = "./images/servers.png" class = "background_image"
+         <img src = "images/servers.png" class = "background_image"
           alt = "First positioned image" />
     <div class="text-block">    
-          <p><b>The mission of the Computer Science Department at LSUS is to produce graduates who possess the capacity to be leaders of technology and change, who will contribute to technological and economic development of the state, region and beyond.</b></p>
+          <p><strong>The mission of the Computer Science Department at LSUS is to produce graduates who possess the capacity to be leaders of technology and change, who will contribute to technological and economic development of the state, region and beyond.</strong></p>
     </div>
-        <img src = "./images/servers.png" class = "background_image"
+        <img src = "images/servers.png" class = "background_image"
           alt = "First positioned image" />
-        <img src = "./images/lsusLogo.png" class = "lsus_logo"
+        <img src = "images/lsusLogo.png" class = "lsus_logo"
           alt = "Logo of LSUS" />
-        <img src = "./images/purpleCS.png" class = "computerscience_image"
+        <img src = "images/purpleCS.png" class = "computerscience_image"
           alt = "Computer Science Logo" />
        
-        <img src = "./images/grayPolygon.png" class = "middle_image"
+        <img src = "images/grayPolygon.png" class = "middle_image"
           alt = "Second positioned image" />
-        <img src = "./images/whitePolygon.png" class = "foreground_image1"
+        <img src = "images/whitePolygon.png" class = "foreground_image1"
           alt = "Third positioned image" />
-        <img src = "./images/purplePolygon.png" class = "foreground_image2"
+        <img src = "images/purplePolygon.png" class = "foreground_image2"
           alt = "Fourth positioned image" />
-        <p id="concentration1"><b style="font-size: 15px;">Software Development</b><br><br>An ABET accredited degree<br>focused on the design,<br> implementation, and delivery of<br>software solutions</p>
-        <p id="concentration2"><b style="font-size: 15px;">Cyber Security & Networking</b><br><br>Focuses on network and information<br>security and approved Criminal<br>Justice courses</p>
-        <p id="concentration3"><b style="font-size: 15px;">Digital & Interactive Design</b><br><br>Prepares students to work on the technical <br>side of computer interactive mobile <br>graphics/visual effectsin a variety of digital<br>media fields<p>
-        <p id="concentration4"><b style="font-size: 15px;">Information Systems</b><br><br>Focuses on business systems,<br>including networks, databases,<br>and approved business courses</p>
+        <p id="concentration1" class="concentrations"><br><br><br><br><br><br><b>Software Development</b><br><br>An ABET accredited degree<br>focused on the design,<br> implementation, and delivery of<br>software solutions</p>
+        <p id="concentration2" class="concentrations"><br><br><br><br><br><br><br><b>Cyber Security & Networking</b><br><br>Focuses on network and information<br>security and approved Criminal<br>Justice courses</p>
+        <p id="concentration3" class="concentrations"><br><br><br><br><br><br><br><b>Digital & Interactive Design</b><br><br>Prepares students to work on the<br> technical side of computer interactive <br>mobile graphics/visual effects in a <br>variety of digital media fields</p>
+        <p id="concentration4" class="concentrations"><br><br><br><br><br><br><b>Information Systems</b><br><br>Focuses on business systems,<br>including networks, databases,<br>and approved business courses</p>
     </div>
   </body>
 </html>    
