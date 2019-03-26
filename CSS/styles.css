@@ -1,7 +1,7 @@
 .background_image { 
       position: absolute;
       top: 0px;
-      left: 0px;
+      left: 25%;
       width: auto;
       height: auto;
       max-width: 900px;
@@ -10,7 +10,7 @@
 	}
     
 .lsus_logo { 
-	  position: absolute;
+      position: absolute;
       top: 25px;
       left: 20px;
       width: auto;
@@ -21,7 +21,7 @@
 }
     
 .computerscience_image { 
-	  position: absolute;
+      position: absolute;
       top: 95px;
       left: 20px;
       width: auto;
@@ -32,9 +32,9 @@
 }
   
 .middle_image { 
-	  position: absolute;
+      position: absolute;
       top: 360px;
-      left: 0px;
+      left: 25%;
       width: auto;
       height: auto;
       max-width: 850px;
@@ -43,9 +43,9 @@
 }
 	
 .foreground_image1 { 
-	  position: absolute;
+      position: absolute;
       top: 319px;
-      left: 0px;
+      left: 25%;
       width: auto;
       height: auto;
       max-width: 850px;
@@ -54,9 +54,9 @@
 }
 	
 .foreground_image2 { 
-	  position: absolute;
+      position: absolute;
       top: 290px;
-      left: 0px;
+      left: 25%;
       width: auto;
       height: auto;
       max-width: 850px;
@@ -65,10 +65,10 @@
 }
     
 #container{
-      position: relative;
+      position: absolute;
+      left: 25%;
       text-align: center;
       color: white;
-      
 }
         
 .text-block {
@@ -96,23 +96,27 @@
 }	
 #concentration1 {
         top: 470px;
-        left: 5px;
+        left: 0px;
+        width: 180px;
 }
     
 #concentration2 {
         top: 410px;
-        left: 190px;
+        left: 200px;
+        width: 180px;
 }
         
 #concentration3 {
         top: 350px;
-        left: 415px;
+        left: 400px;
+        width: 180px;
 }
 
 #concentration4 {
         top: 300px;
-        left: 630px;
+        left: 600px;
 		border-right-style: none;
+        width: 180px;
 }
 
 b {
