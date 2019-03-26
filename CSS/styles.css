@@ -1,0 +1,123 @@
+.background_image { 
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      width: auto;
+      height: auto;
+      max-width: 900px;
+      max-height: 900px;
+      z-index: 1; 
+	}
+    
+.lsus_logo { 
+	  position: absolute;
+      top: 25px;
+      left: 20px;
+      width: auto;
+      height: auto;
+      max-width: 300px;
+      max-height: 150px;
+      z-index: 1; 
+}
+    
+.computerscience_image { 
+	  position: absolute;
+      top: 95px;
+      left: 20px;
+      width: auto;
+      height: auto;
+      max-width: 300px;
+      max-height: 150px;
+      z-index: 1; 
+}
+  
+.middle_image { 
+	  position: absolute;
+      top: 360px;
+      left: 0px;
+      width: auto;
+      height: auto;
+      max-width: 850px;
+      max-height: 850px;
+      z-index: 2; 
+}
+	
+.foreground_image1 { 
+	  position: absolute;
+      top: 319px;
+      left: 0px;
+      width: auto;
+      height: auto;
+      max-width: 850px;
+      max-height: 850px;
+      z-index: 3;
+}
+	
+.foreground_image2 { 
+	  position: absolute;
+      top: 290px;
+      left: 0px;
+      width: auto;
+      height: auto;
+      max-width: 850px;
+      max-height: 850px;
+      z-index: 4; 
+}
+    
+#container{
+      position: relative;
+      text-align: center;
+      color: white;
+      
+}
+        
+.text-block {
+      position: absolute;
+      top: 130px;
+      left: 60px;
+      width: 550px;
+      background: rgba(204,204,204,0.9);
+      font-family: courier; 
+      color: white;
+      padding-left: 20px;
+      padding-right: 20px;
+      z-index: 5
+}  
+	  
+.concentrations {
+		position: absolute;
+		height: 250px;
+		font-size: 12px;
+		text-align: center;
+        z-index: 100;
+		border-right-style: dashed;
+		border-color: #fcd121;
+		padding: 10px;	
+}	
+#concentration1 {
+        top: 470px;
+        left: 5px;
+}
+    
+#concentration2 {
+        top: 410px;
+        left: 190px;
+}
+        
+#concentration3 {
+        top: 350px;
+        left: 415px;
+}
+
+#concentration4 {
+        top: 300px;
+        left: 630px;
+		border-right-style: none;
+}
+
+b {
+		font-size: 15px;
+		font-weight: bold;
+		color: #fcd121;
+}
+	
