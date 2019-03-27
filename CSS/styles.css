@@ -7,8 +7,8 @@
       max-width: 900px;
       max-height: 900px;
       z-index: 1; 
-	}
-    
+}
+ 
 .lsus_logo { 
       position: absolute;
       top: 25px;
@@ -71,7 +71,7 @@
       color: white;
 }
         
-.text-block {
+.missionTB {
       position: absolute;
       top: 130px;
       left: 110px;
@@ -83,45 +83,51 @@
       padding-right: 20px;
       z-index: 5
 }  
-	  
-.concentrations {
-		position: absolute;
-		height: 250px;
-		font-size: 12px;
-		text-align: center;
-        z-index: 100;
-		border-right-style: dashed;
-		border-color: #fcd121;
-		padding: 10px;	
+
+.concentrationTB {
+	position: absolute;
+	width: 180px;
+	height: 230px;
+	padding-top: 40px;
+	padding-right: 10px;
+	border-right: dashed;
+	border-color: #fcd121;
+	font-family: courier;
+	font-size: 14px;
+	text-align: center;
+	z-index: 100;
 }	
+	
 #concentration1 {
-        top: 470px;
-        left: 0px;
-        width: 180px;
+        top: 460px;
+        left: 10px;
 }
     
 #concentration2 {
-        top: 410px;
-        left: 200px;
-        width: 180px;
+        top: 400px;
+        left: 220px;
 }
         
 #concentration3 {
-        top: 350px;
-        left: 400px;
-        width: 180px;
+        top: 340px;
+        left: 420px;
 }
 
 #concentration4 {
-        top: 300px;
-        left: 600px;
+        top: 290px;
+        left: 620px;
 		border-right-style: none;
-        width: 180px;
 }
 
 b {
 		font-size: 15px;
 		font-weight: bold;
 		color: #fcd121;
+}
+
+#icon {
+	width: 60px;
+	height: 60px;
+	padding-bottom: 10px;
 }
 	
