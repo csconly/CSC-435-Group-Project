@@ -1,0 +1,136 @@
+.background_image { 
+  position: absolute;
+  top: 0px;
+  left: 25%;
+  width: auto;
+  height: auto;
+  max-width: 900px;
+  max-height: 900px;
+  z-index: 1; 
+}
+ 
+.lsus_logo { 
+  position: absolute;
+  top: 25px;
+  left: 20px;
+  width: auto;
+  height: auto;
+  max-width: 300px;
+  max-height: 150px;
+  z-index: 1; 
+}
+    
+.computerscience_image { 
+  position: absolute;
+  top: 95px;
+  left: 20px;
+  width: auto;
+  height: auto;
+  max-width: 300px;
+  max-height: 150px;
+  z-index: 1; 
+}
+  
+.middle_image { 
+  position: absolute;
+  top: 360px;
+  left: 25%;
+  width: auto;
+  height: auto;
+  max-width: 850px;
+  max-height: 850px;
+  z-index: 2; 
+}
+	
+.foreground_image1 { 
+  position: absolute;
+  top: 319px;
+  left: 25%;
+  width: auto;
+  height: auto;
+  max-width: 850px;
+  max-height: 850px;
+  z-index: 3;
+}
+	
+.foreground_image2 { 
+  position: absolute;
+  top: 290px;
+  left: 25%;
+  width: auto;
+  height: auto;
+  max-width: 850px;
+  max-height: 850px;
+  z-index: 4; 
+}
+
+body {
+	font-size: 14px;
+	font-family: courier;
+	text-align: center;
+}
+    
+#container{
+  position: absolute;
+  left: 25%;
+  text-align: center;
+  color: white;
+}
+        
+.missionTB {
+  position: absolute;
+  top: 130px;
+  left: 110px;
+  width: 550px;
+  background: rgba(204,204,204,0.9);
+  font-size: 20px; 
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  z-index: 5
+}  
+
+.concentrationTB {
+  position: absolute;
+  width: 180px;
+  height: 240px;
+  padding-top: 40px;
+  padding-right: 10px;
+  border-right: dashed;
+  border-color: #fcd121;
+  z-index: 100;
+}	
+	
+#concentration1 {
+  top: 460px;
+  left: 10px;
+}
+    
+#concentration2 {
+  top: 400px;
+  left: 220px;
+}
+        
+#concentration3 {
+  top: 340px;
+  left: 420px;
+}
+
+#concentration4 {
+  top: 290px;
+  left: 620px;
+  border-right-style: none;
+}
+
+b {
+  font-size: 15px;
+  font-weight: bold;
+  color: #fcd121;
+}
+
+#icon {
+  width: 60px;
+  height: 60px;
+  padding-bottom: 10px;
+}
+	
