@@ -63,6 +63,17 @@
       max-height: 850px;
       z-index: 4; 
 }
+
+.anchor_image { 
+      position: absolute;
+      top: 970px;
+      left: 710px;
+      width: auto;
+      height: auto;
+      max-width: 250px;
+      max-height: 100px;
+      z-index: 101; 
+}
     
 #container{
       position: absolute;
