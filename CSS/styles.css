@@ -87,8 +87,8 @@
       top: 130px;
       left: 110px;
       width: 550px;
-      background: rgba(204,204,204,0.9);
-      font-family: courier; 
+      background: rgba(158, 158, 158,0.9);
+      font-family: arial; 
       color: white;
       padding-left: 20px;
       padding-right: 20px;
@@ -103,11 +103,27 @@
 	padding-right: 10px;
 	border-right: dashed;
 	border-color: #fcd121;
-	font-family: courier;
+	font-family: arial;
 	font-size: 14px;
 	text-align: center;
 	z-index: 100;
 }	
+
+.infoTB {
+	position: absolute;
+	width: 275px;
+	height: 250px;
+	padding-top: 40px;
+	padding-right: 35px;
+	border-right: dashed;
+	border-color: #fcd121;
+	font-family: arial;
+	font-size: 14px;
+	text-align: center;
+	z-index: 100;
+
+	
+}
 	
 #concentration1 {
         top: 460px;
@@ -131,20 +147,25 @@
 }
 
 #about {
-        top: 755px;
-        left: 10px;
-		border-right-style: none;
+        top: 760px;	
+        left: 60px;
+		border-right-style: none;		
 }
 
+#blank {
+        top: 730px;	
+        left: 100px;
+       }
+
 #why {
-        top: 650px;
-        left: 420px;
+        top: 660px;
+        left: 480px;
 		border-right-style: none;
 }
 
 #contact {
-        top: 900px;
-        left: 420px;
+        top: 860px;
+        left: 480px;
 		border-right-style: none;
 }
 
