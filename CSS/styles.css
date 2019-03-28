@@ -130,6 +130,24 @@
 		border-right-style: none;
 }
 
+#about {
+        top: 755px;
+        left: 10px;
+		border-right-style: none;
+}
+
+#why {
+        top: 650px;
+        left: 420px;
+		border-right-style: none;
+}
+
+#contact {
+        top: 900px;
+        left: 420px;
+		border-right-style: none;
+}
+
 b {
 		font-size: 15px;
 		font-weight: bold;
