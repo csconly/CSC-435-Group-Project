@@ -155,8 +155,19 @@ b {
 }
 
 #icon {
-	width: 60px;
-	height: 60px;
-	padding-bottom: 10px;
+	    width: 60px;
+	    height: 60px;
+	    padding-bottom: 10px;
 }
+
+#img  {
+   
+      position: absolute;
+      top: 0px;
+      left: 0%;
+      width: auto;
+      height: auto;
+      max-width: 900px;
+      max-height: 900px;
+      z-index: 1;
 	
