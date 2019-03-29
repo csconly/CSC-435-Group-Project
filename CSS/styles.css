@@ -112,12 +112,12 @@
 .infoTB {
 	position: absolute;
 	width: 275px;
-	height: 250px;
+	height: 260px;
 	padding-top: 40px;
 	padding-right: 35px;
 	border-right: dashed;
 	border-color: #fcd121;
-	font-family: arial;
+	font-family: courier;
 	font-size: 14px;
 	text-align: center;
 	z-index: 100;
@@ -176,8 +176,8 @@ b {
 }
 
 #icon {
-	    width: 60px;
-	    height: 60px;
+	    width: 70px;
+	    height: 70px;
 	    padding-bottom: 10px;
 }
 
